@@ -12,7 +12,7 @@ else:
     # Solution de repli pour tester en local
     api_key = os.environ.get("GEMINI_API_KEY", "CLÉ_NON_TROUVÉE_TEST_LOCAL")
 
-MODEL_NAME = 'gemini-1.5-flash'
+MODEL_NAME = 'gemini-1.5-pro-latest'
 
 # 1. On crée l'objet Client
 # Ceci utilise la clé récupérée ci-dessus
